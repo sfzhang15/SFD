@@ -47,6 +47,7 @@ S³FD is a real-time face detector, which performs superiorly on various scales 
   # You must modify the "Path" in the afw_test.py to your AFW path. 
   # It will creat sfd_afw_dets.txt and put it in the EVALUATION TOOLBOX to evalute.
   python afw_test.py
+  ```
 
 2. Evaluate our model on PASCAL face.
   ```Shell
