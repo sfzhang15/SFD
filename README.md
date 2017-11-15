@@ -65,7 +65,7 @@ S³FD is a real-time face detector, which performs superiorly on various scales 
   python fddb_test.py
   # Fitting the dets from rectangle box to ellipse box.
   # It will creat sfd_fddb_dets_fit.txt and put it in the FDDB evalution code to evalute.
-  cd fddb_from_rectangle_to_ellipse/
+  cd fddb_from_rectangle_to_ellipse
   matlab -nodesktop -nosplash -nojvm -r "run fitting.m;quit;"
   ```
 
@@ -84,8 +84,8 @@ S³FD is a real-time face detector, which performs superiorly on various scales 
 
 1. Follow the intruction of SSD to create the lmdb of WIDER FACE.
 
-2. Modify the data augmentation code to make sure that it does not change the image ratio.
+2. Modify the data augmentation code of SSD to make sure that it does not change the image ratio.
 
-3. Modify the anchor match code to implement the 'scale compensation anchor matching strategy'.
+3. Modify the anchor match code of SSD to implement the 'scale compensation anchor matching strategy'.
 
 4. Train the model.
