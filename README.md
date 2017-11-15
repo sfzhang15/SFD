@@ -75,7 +75,7 @@ S³FD is a real-time face detector, which performs superiorly on various scales 
   # You must modify the path in the wider_test.py to your WIDERFACE path. 
   # It will creat detection results in the "eval_tools_old-version" folder.
   python wider_test.py
-  # If you want to get the results of val set in out paper, you should use the provided "eval_tools_old-version". 
+  # If you want to get the results of val set in our paper, you should use the provided "eval_tools_old-version". 
   # Or you can use latest eval_tools of WIDER FACE.
   # There is a slight difference between them, since the annotation used for the evaluation is slightly change around March 2017.
   ```
