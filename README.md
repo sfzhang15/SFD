@@ -34,7 +34,7 @@ S³FD is a real-time face detector, which performs superiorly on various scales 
 
 3. Download our pre-trained [model](https://pan.baidu.com/s/1bKiwyE) and merge it with the folder `$SFD_ROOT/models`.
 
-4. Download our "sfd_test_code" folder and put it at `$SFD_ROOT`.
+4. Download our above "sfd_test_code" folder and put it in the `$SFD_ROOT`.
 
 5. Download [AFW](http://www.ics.uci.edu/~xzhu/face/), [PASCAL face](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html), [FDDB](http://vis-www.cs.umass.edu/fddb/index.html) and [WIDER FACE](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) datasets.
 
