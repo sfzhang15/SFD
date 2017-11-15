@@ -32,7 +32,7 @@ S³FD is a real-time face detector, which performs superiorly on various scales 
   make runtest -j8
   ```
 
-3. Download our "models" folder and merge it with the folder `$SFD_ROOT/models`.
+3. Download our pre-trained [model](https://pan.baidu.com/s/1bKiwyE) and merge it with the folder `$SFD_ROOT/models`.
 
 4. Download our "sfd_test_code" folder and put it at `$SFD_ROOT`.
 
