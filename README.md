@@ -16,7 +16,7 @@ S³FD is a real-time face detector, which performs superiorly on various scales 
 1. Get the [SSD](https://github.com/weiliu89/caffe/tree/ssd) code. We will call the directory that you cloned Caffe into `$SFD_ROOT`
   ```Shell
   git clone https://github.com/weiliu89/caffe.git
-  cd `$SFD_ROOT`
+  cd $SFD_ROOT
   git checkout ssd
   ```
 
