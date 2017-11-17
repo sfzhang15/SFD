@@ -51,7 +51,7 @@ for Name in open('./sfd_test_code/AFW/afw_img_list.txt'):
         ymin = int(round(det_ymin[i] * heigh))
         xmax = int(round(det_xmax[i] * width))
         ymax = int(round(det_ymax[i] * heigh))
-        # simple fitting to AFW, because the gt box of AFW is longer than the gt box of training data (i.e., WIDER FACE) 
+        # simple fitting to AFW, because the gt box of training data (i.e., WIDER FACE) is longer than the gt box of AFW
         ymin += 0.2 * (ymax - ymin + 1)   
         score = det_conf[i]
         if score < 0:
