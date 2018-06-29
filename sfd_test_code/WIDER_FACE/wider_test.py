@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
         for num, file in enumerate(filelist):
             im_name = file[0][0].encode('utf-8')
-            Image_Path = Path + im_name[:] + '.jpg'
+            Image_Path = Path + event[0][0] + '/' + im_name[:] + '.jpg'
             image = caffe.io.load_image(Image_Path)
 
             max_im_shrink = (0x7fffffff / 577.0 / (image.shape[0] * image.shape[1])) ** 0.5 # the max size of input image for caffe
